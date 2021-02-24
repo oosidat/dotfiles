@@ -2,3 +2,5 @@
 git config --global alias.fetchmaster '!git fetch && git reset --hard origin/master'
 git config --global alias.remaster '!git fetch && git rebase origin/master'
 
+# link other files
+ln -f -s ~/dotfiles/.zshrc ~/.zshrc
